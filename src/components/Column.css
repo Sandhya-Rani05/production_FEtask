@@ -1,0 +1,22 @@
+/* Column.css */
+.column-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.column-title {
+  display: flex;
+  align-items: center; /* Align the icon and title vertically */
+}
+
+.status-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px; /* Add space between icon and title */
+}
+
+.task-list {
+  padding: 10px;
+}

@@ -1,0 +1,57 @@
+.board-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ccc;
+}
+
+.display-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.display-menu {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.display-option {
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #007bff;
+}
+
+select {
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* Use Flexbox for Kanban columns */
+.kanban-columns {
+  display: flex;
+  flex-direction: row; /* Make columns horizontal */
+  justify-content: space-between;
+  gap: 20px; /* Add spacing between columns */
+}
+
+.column-header {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icon and column title */
+}
+
+.kanban-board {
+  margin: 20px;
+}
